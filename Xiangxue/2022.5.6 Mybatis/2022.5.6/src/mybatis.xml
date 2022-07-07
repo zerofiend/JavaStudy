@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--从外部文件中取文件-->
+    <properties resource="db.properties"/>
+    <!--给包名+类名重命名-->
+    <typeAliases>
+        <typeAlias type="com.mybatis.pojo.Users" alias="Users"/>
+    </typeAliases>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/><!--当前事务沿用jdbc的事务逻辑-->
+            <dataSource type="POOLED"><!--当前使用的连接池技术-->
+                <property name="driver" value="${mysql.driver}"/>
+                <property name="url"
+                          value="${mysql.url}"/>
+                <property name="username" value="${mysql.username}"/>
+                <property name="password" value="${mysql.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--存放sql语句的UserMapper.xml文件与当前配置文件关联起来-->
+        <mapper resource="com/mybatis/mapper/UserMapper.xml"/>
+    </mappers>
+</configuration>

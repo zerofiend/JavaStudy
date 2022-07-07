@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.ClassMapper">
+    <resultMap id="Class" type="Class">
+        <id property="classId" column="class_id"/>
+        <result property="className" column="class_name"/>
+    </resultMap>
+    <select id="selById" resultMap="Class">
+        select *
+        from class
+        where class_id = #{param1}
+    </select>
+
+    <!--    多对一     -->
+    <!--    方式一 -->
+    <select id="findAll" resultMap="Class">
+        select *
+        from class
+    </select>
+
+    <!--    方式二 配置文件查询  -->
+    <resultMap id="Class2" type="Class">
+        <id property="classId" column="class_id"/>
+        <result property="className" column="class_name"/>
+        <result property="room" column="room"/>
+        <collection property="stus" select="com.mapper.StuMapper.selByClassId" column="class_id">
+            <id property="stuId" column="stu_id"/>
+            <result property="stuName" column="stu_name"/>
+            <result property="classId" column="class_id"/>
+            <result property="age" column="age"/>
+        </collection>
+    </resultMap>
+    <select id="findAll2" resultMap="Class2">
+        select *
+        from class
+    </select>
+
+    <!--    方式三 sql语句   -->
+    <resultMap id="Class3" type="Class">
+        <id property="classId" column="class_id"/>
+        <result property="className" column="class_name"/>
+        <result property="room" column="room"/>
+        <collection property="stus" javaType="list" ofType="Stu">
+            <id property="stuId" column="stu_id"/>
+            <result property="stuName" column="stu_name"/>
+            <result property="classId" column="class_id"/>
+            <result property="age" column="age"/>
+        </collection>
+    </resultMap>
+    <select id="findAll3" resultMap="Class3">
+        SELECT *
+        FROM class
+                 NATURAL JOIN stu
+    </select>
+</mapper>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.StuMapper">
+    <!--    方式一 （N+1）-->
+    <resultMap id="Stu" type="Stu">
+        <id property="stuId" column="stu_id"/>
+        <result property="stuName" column="stu_name"/>
+        <result property="classId" column="class_id"/>
+    </resultMap>
+    <select id="selAll" resultMap="Stu">
+        select *
+        from stu;
+    </select>
+
+    <!--    方式二 配置association   -->
+    <resultMap id="Stu2" type="Stu">
+        <id property="stuId" column="stu_id"/>
+        <result property="stuName" column="stu_name"/>
+        <result property="classId" column="class_id"/>
+        <!--
+            property 是Stu里持有的Class类的引用名aClass
+            select 是通过selById查询的方式查找信息
+            javaType 是指定查找后返回的类型Class类
+            column 是指定基于Stu的哪个属性查找Class类
+        -->
+        <association property="aClass" select="com.mapper.ClassMapper.selById" javaType="Class"
+                     column="class_id"/>
+    </resultMap>
+    <select id="selAll2" resultMap="Stu2">
+        select *
+        from stu
+    </select>
+
+    <!--    方式三 通过sql语句和resultMap    -->
+    <resultMap id="Stu3" type="Stu">
+        <id property="stuId" column="stu_id"/>
+        <result property="stuName" column="stu_name"/>
+        <result property="classId" column="class_id"/>
+        <result property="age" column="age"/>
+        <association property="aClass" javaType="Class">
+            <id property="classId" column="class_id"/>
+            <result property="className" column="class_name"/>
+            <result property="room" column="room"/>
+        </association>
+    </resultMap>
+    <select id="selAll3" resultMap="Stu3">
+        select *
+        from stu
+                 natural join class
+    </select>
+    <select id="selByClassId" resultMap="Stu">
+        select *
+        from stu
+        where class_id = #{classId}
+    </select>
+</mapper>

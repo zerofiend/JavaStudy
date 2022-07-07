@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.UserMapper">
+    <select id="selBy" resultType="Users">
+        select *
+        from t_user
+        <where>
+            <if test="uname != null and uname != ''">
+                and uname = #{uname}
+            </if>
+            <if test="pwd != null and pwd !=''">
+                and pwd = #{pwd}
+            </if>
+        </where>
+    </select>
+    <select id="selBy2" resultType="Users">
+        select *
+        from t_user
+        <where>
+            <choose>
+                <when test="uname != null and uname != ''">
+                    uname = #{uname}
+                </when>
+                <when test="pwd != null and pwd !=''">
+                    pwd = #{pwd}
+                </when>
+            </choose>
+        </where>
+    </select>
+    <update id="update">
+        update t_user
+        <set>
+            <if test="uname != null and uname != ''">
+                uname = #{uname},
+            </if>
+            <if test="pwd != null and pwd != ''">
+                pwd = #{pwd},
+            </if>
+        </set>
+        where
+        id = #{id}
+    </update>
+    <!--使用band标签给模糊查询提前加工-->
+    <select id="selLike" resultType="Users">
+        <bind name="param1" value="'%'+param1+'%'"/>
+        select *
+        from t_user where uname like #{param1};
+    </select>
+    <!--直接使用函数拼接字符串-->
+    <select id="selLike2" resultType="Users">
+        select *
+        from t_user
+        where uname like concat('%', #{param1}, '%')
+    </select>
+    <select id="selIn" resultType="Users">
+        select *
+        from t_user
+        where id in
+        /*等同于for(Integer i:list)*/
+        <foreach collection="list" open="(" separator="," close=")" item="id">
+            #{id}
+        </foreach>
+    </select>
+    <insert id="addBush">
+        insert into t_user values
+        <foreach collection="list" separator="," item="user">
+            (null,#{user.uname},#{user.pwd})
+        </foreach>
+    </insert>
+    <!--动态选择列-->
+    <sql id="ss">
+        uname,pwd
+    </sql>
+    <select id="selSame" resultType="Users">
+        select
+        <include refid="ss"/>
+        from t_user where uname=#{uname}
+    </select>
+</mapper>

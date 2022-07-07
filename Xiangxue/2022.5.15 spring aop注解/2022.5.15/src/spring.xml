@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--    相当于使用set方法  -->
+    <bean id="user" class="com.spring.pojo.User">
+        <property name="uname" value="张三"/>
+    </bean>
+    <!--    相当于使用构造方法   -->
+    <!--    autowire 自动注入，若存在和类中定义的属性名相同的id，则自动注入   -->
+    <bean id="user2" class="com.spring.pojo.User" autowire="byName">
+        <constructor-arg name="uname" value="李四"/>
+        <constructor-arg name="id" value="1"/>
+        <constructor-arg name="pwd" value="123"/>
+        <constructor-arg name="aClass" ref="class"/>
+    </bean>
+    <bean id="class" class="com.spring.pojo.Class">
+        <property name="classId" value="1"/>
+        <property name="className" value="英语"/>
+        <property name="room" value="101"/>
+    </bean>
+    <!--    自动注入的accout     -->
+    <bean id="accout" class="com.spring.pojo.Accout">
+        <property name="id" value="11"/>
+        <property name="money" value="5000"/>
+    </bean>
+
+    <!--    转化特殊类型的数据   -->
+    <bean id="data" class="com.spring.pojo.Data">
+        <property name="arr">
+            <array>
+                <value>张三</value>
+                <value>李四</value>
+                <value>王五</value>
+            </array>
+        </property>
+        <property name="list">
+            <list>
+                <value>10</value>
+                <value>20</value>
+                <value>30</value>
+                <value>40</value>
+                <value>50</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>123</value>
+                <value>12345</value>
+                <value>12345</value>
+                <value>12345</value>
+                <value>12345</value>
+                <value>123</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="张三" value="123"/>
+                <entry key="李四" value="123"/>
+                <entry key="王五" value="123"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="城市">芜湖</prop>
+                <prop key="美食">汤包</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

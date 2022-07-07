@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mapper.UserMapper">  <!--命名空间里的值和接口关联-->
+    <select id="selAll" resultType="Users">
+        select *
+        from t_user
+    </select>
+    <select id="selBy" resultType="Users">
+        select *
+        from t_user
+        where uname = #{param1}
+          and pwd = #{param2}
+    </select>
+    <!--如果参数列表是对象封装的，则使用对象中对应的属性名称来获取内容-->
+    <select id="selBy2" resultType="Users">
+        select *
+        from t_user
+        where id = #{id}
+    </select>
+    <update id="update">
+        update t_user
+        set pwd=#{pwd}
+        where uname = #{uname}
+    </update>
+    <insert id="add">
+        insert into t_user(id, uname, pwd)
+        values (null, #{uname}, #{pwd})
+    </insert>
+    <delete id="delete">
+        delete
+        from t_user
+        where id = #{id}
+    </delete>
+</mapper>

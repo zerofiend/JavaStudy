@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mapper.UserMapper">
+    <select id="selBy" resultType="Users">
+        select *
+        from t_user
+        where uname = '张三'
+    </select>
+    <select id="selAll" resultType="Users">
+        select *
+        from t_user
+    </select>
+    <!--增-->
+    <select id="addUser" resultType="Users">
+        insert into t_user
+        VALUES (null, '王五', '123')
+    </select>
+    <select id="updateUser">
+        update t_user
+        set pwd=12345
+        where uname = '王五'
+    </select>
+    <select id="deleteUser">
+        delete
+        from t_user
+        where uname = '王五'
+    </select>
+</mapper>
