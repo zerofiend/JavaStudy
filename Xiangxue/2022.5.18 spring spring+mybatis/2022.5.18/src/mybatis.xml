@@ -5,7 +5,18 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <!--从外部引入db.properties-->
+    <context:property-placeholder location="classpath:db.properties"/>
 
-    <!--    配置注解    -->
-    <context:component-scan base-package="com.aop.service"/>
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${mysql.driver}"/>
+        <property name="url" value="${mysql.url}"/>
+        <property name="username" value="${mysql.username}"/>
+        <property name="password" value="${mysql.password}"/>
+    </bean>
+
+    <!--把mybatis的dataSource交给spring容器管理，当前这个类对象由spring来调用，不需要设置id-->
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
 </beans>

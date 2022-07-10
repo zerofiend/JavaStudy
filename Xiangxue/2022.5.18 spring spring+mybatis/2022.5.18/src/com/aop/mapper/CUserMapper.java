@@ -1,9 +1,10 @@
-package com.mybatis.mapper;
+package com.aop.mapper;
 
-import com.mybatis.pojo.CUser;
-import com.mybatis.pojo.CUserExample;
-import java.util.List;
+import com.aop.pojo.CUser;
+import com.aop.pojo.CUserExample;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface CUserMapper {
     long countByExample(CUserExample example);

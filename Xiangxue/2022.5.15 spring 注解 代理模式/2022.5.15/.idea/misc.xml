@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectResources">
+    <resource url="https://www.springframework.org/schema/beans/spring-beans.xsd" location="$PROJECT_DIR$/../../../../Java/spring/xsd/spring-beans.xsd" />
+    <resource url="https://www.springframework.org/schema/context/spring-context.xsd" location="$PROJECT_DIR$/../../../../Java/spring/xsd/spring-context.xsd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

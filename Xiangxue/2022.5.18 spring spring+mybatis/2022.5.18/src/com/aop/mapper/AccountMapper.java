@@ -1,9 +1,11 @@
-package com.mybatis.mapper;
+package com.aop.mapper;
 
-import com.mybatis.pojo.Account;
-import com.mybatis.pojo.AccountExample;
-import java.util.List;
+import com.aop.pojo.Account;
+import com.aop.pojo.AccountExample;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Update;
+
+import java.util.List;
 
 public interface AccountMapper {
     long countByExample(AccountExample example);
@@ -27,4 +29,10 @@ public interface AccountMapper {
     int updateByPrimaryKeySelective(Account record);
 
     int updateByPrimaryKey(Account record);
+
+    @Update("update account set money = money - #{param2} where aid = #{param1}")
+    int moneyOut(int aid, int money);
+
+    @Update("update account set money = money + #{param2} where aid = #{param1}")
+    int moneyIn(int aid, int money);
 }

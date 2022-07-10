@@ -5,30 +5,6 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
-    <aop:config>
-        <!--获取要被增强的方法-->
-        <aop:pointcut id="p1" expression="execution(* com.aop.service.impl.UserServiceImpl.save(..))"/>
-        <aop:pointcut id="p2" expression="execution(* com.aop.service.impl.UserServiceImpl.saveBack(..))"/>
-        <aop:pointcut id="p3" expression="execution(* com.aop.service.impl.UserServiceImpl.delete(..))"/>
-        <aop:pointcut id="p4" expression="execution(* com.aop.service.impl.UserServiceImpl.delete2(..))"/>
-        <aop:pointcut id="p5" expression="execution(* com.aop.service.impl.UserServiceImpl.update(..))"/>
-        <!--获取增强方法的类-->
-        <aop:aspect ref="myAspect">
-            <!--提前通知-->
-            <aop:before method="check" pointcut-ref="p1"/>
-            <!--之后通知无返回值-->
-            <aop:after-returning method="callback" pointcut-ref="p1"/>
-            <!--之后通知有返回值-->
-            <aop:after-returning method="backReturn" pointcut-ref="p2" returning="obj"/>
-            <!--环绕通知-->
-            <aop:around method="around" pointcut-ref="p3"/>
-            <!--环绕通知带形式参数-->
-            <aop:around method="around2" pointcut-ref="p4"/>
-            <!--抛出异常时的通知-->
-            <aop:after-throwing method="doException" pointcut-ref="p5" throwing="e"/>
-            <!--最终通知-->
-            <aop:after method="afterFinally" pointcut-ref="p5"/>
-        </aop:aspect>
-    </aop:config>
-
+    <!--    开启注解式的Aop通知开发   -->
+    <aop:aspectj-autoproxy/>
 </beans>
