@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fbb135e-5288-4cce-a90f-a6ca84b8043b" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../../2022.5.13 spring xml/2022.5.13/2022.5.13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.15 spring 注解 代理模式/2022.5.15/2022.5.15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.16 spring Aop xml开发/2022.5.16/2022.5.16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/2022.5.18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/javassist-3.17.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/junit-4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/mybatis-3.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/mybatis-spring-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/mysql-connector-java-5.1.48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/spring-aop-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/spring-aspects-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/spring-beans-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/spring-context-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/spring-core-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/spring-expression-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/spring-jdbc-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/lib/spring-tx-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/src/aspect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/src/com/aop/aspect/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/src/com/aop/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/src/com/aop/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/src/com/aop/test/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring Aop注解开发/2022.5.18/src/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring spring+mybatis/2022.5.18/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring spring+mybatis/2022.5.18/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring spring+mybatis/2022.5.18/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring spring+mybatis/2022.5.18/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring spring+mybatis/2022.5.18/2022.5.18.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/.idea/saveactions_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/2022.5.13.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/asm-3.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/cglib-2.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/com.springsource.org.aopalliance-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/com.springsource.org.apache.log4j-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/javassist-3.17.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/junit-4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/mybatis-3.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/mybatis-spring-2.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/mysql-connector-java-5.1.48.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/spring-aop-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/spring-aspects-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/spring-beans-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/spring-context-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/spring-core-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/spring-expression-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/spring-jdbc-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/lib/spring-tx-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/src/com/spring/pojo/Accout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/src/com/spring/pojo/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/src/com/spring/pojo/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/src/com/spring/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/src/com/spring/test/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.13 spring/2022.5.13/src/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/.idea/saveactions_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/2022.5.15.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/asm-3.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/cglib-2.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/com.springsource.org.aopalliance-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/com.springsource.org.apache.log4j-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/javassist-3.17.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/junit-4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/mybatis-3.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/mybatis-spring-2.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/mysql-connector-java-5.1.48.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/spring-aop-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/spring-aspects-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/spring-beans-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/spring-context-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/spring-core-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/spring-expression-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/spring-jdbc-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/lib/spring-tx-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/src/com/spring/pojo/Accout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/src/com/spring/pojo/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/src/com/spring/pojo/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/src/com/spring/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/src/com/spring/test/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.15 spring aop注解/2022.5.15/src/spring.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BeT4J0i7Z2tEOMBONIqufAGYkp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/ZFiend/JavaStudy/Xiangxue/2022.5.16 spring Aop/2022.5.16/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "settings.saveactions",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ZFiend\JavaStudy\Xiangxue\2022.5.16 spring Aop\2022.5.16\src" />
+      <recent name="D:\ZFiend\JavaStudy\Xiangxue\2022.5.16 spring Aop\2022.5.16" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aop.test.Demo" />
+      <module name="2022.5.16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aop.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="4fbb135e-5288-4cce-a90f-a6ca84b8043b" name="变更" comment="" />
+      <created>1657265359808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657265359808</updated>
+      <workItem from="1657265361232" duration="6103000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

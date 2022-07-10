@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--    配置注解    -->
+    <context:component-scan base-package="com.spring.pojo"/>
+    <bean id="class1" class="com.spring.pojo.Class">
+        <property name="classId" value="123"/>
+        <property name="room" value="101"/>
+        <property name="className" value="英语"/>
+    </bean>
+    <bean id="class2" class="com.spring.pojo.Class">
+        <property name="classId" value="124"/>
+        <property name="room" value="102"/>
+        <property name="className" value="数学"/>
+    </bean>
+</beans>
