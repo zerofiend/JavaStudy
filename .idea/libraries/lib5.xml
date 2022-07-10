@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Xiangxue/2022.4.5 Web/out/artifacts/2022_4_5_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.48.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Xiangxue/2022.4.5 Web/out/artifacts/2022_4_5_war_exploded/WEB-INF/lib/servlet-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

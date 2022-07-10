@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JDBC/JDBC01/lib/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JDBC/JDBC01/lib/mysql-connector-java-5.1.48.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

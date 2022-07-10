@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.1.11 Collection/2022.1.11 Collection.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.1.11 Collection/2022.1.11 Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.1.6 StringBuffer/2022.1.6 StringBuffer.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.1.6 StringBuffer/2022.1.6 StringBuffer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.1.8 ZhengZe/2022.1.8 ZhengZe.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.1.8 ZhengZe/2022.1.8 ZhengZe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.2.12 设计模式/2022.2.12 设计模式.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.2.12 设计模式/2022.2.12 设计模式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.2.15 对象操作流/2022.2.15 对象操作流.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.2.15 对象操作流/2022.2.15 对象操作流.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.2.17 多线程/2022.2.17 多线程.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.2.17 多线程/2022.2.17 多线程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.2.22 网络编程/2022.2.22 网络编程.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.2.22 网络编程/2022.2.22 网络编程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.2.24 反射/2022.2.24 反射.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.2.24 反射/2022.2.24 反射.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.2.8 IO/2022.2.8 IO.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.2.8 IO/2022.2.8 IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.3.10 JDBC/2022.3.10 JDBC.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.3.10 JDBC/2022.3.10 JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.3.12 JDBC/2022.3.12 JDBC.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.3.12 JDBC/2022.3.12 JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.3.22 XML/2022.3.22 XML.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.3.22 XML/2022.3.22 XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.3.24 JavaWeb/2022.3.24 JavaWeb.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.3.24 JavaWeb/2022.3.24 JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.3.29 Web/2022.3.29 Web.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.3.29 Web/2022.3.29 Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.3.31 Web/2022.3.31 Web.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.3.31 Web/2022.3.31 Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.3.8 JDBC/2022.3.8 JDBC.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.3.8 JDBC/2022.3.8 JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.4.12 拦截器/2022.4.12 拦截器.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.4.12 拦截器/2022.4.12 拦截器.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.4.12 监听器/2022.4.12 监听器.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.4.12 监听器/2022.4.12 监听器.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.4.14 案例/2022.4.14 案例.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.4.14 案例/2022.4.14 案例.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.4.2 cookies/2022.4.2 cookies.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.4.2 cookies/2022.4.2 cookies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.4.2 session/2022.4.2 session.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.4.2 session/2022.4.2 session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.4.5 Web/2022.4.5 Web.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.4.5 Web/2022.4.5 Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.4.7 Web/2022.4.7 Web.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.4.7 Web/2022.4.7 Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.5.11 mybatis多表查询/2022.5.11 mybatis多表查询.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.5.11 mybatis多表查询/2022.5.11 mybatis多表查询.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.5.13 mybatis逆向工程/2022.5.13 mybatis逆向工程.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.5.13 mybatis逆向工程/2022.5.13 mybatis逆向工程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.5.13 spring xml/2022.5.13 spring xml.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.5.13 spring xml/2022.5.13 spring xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.5.15 spring 注解 代理模式/2022.5.15 spring 注解 代理模式.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.5.15 spring 注解 代理模式/2022.5.15 spring 注解 代理模式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.5.16 spring Aop xml开发/2022.5.16 spring Aop xml开发.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.5.16 spring Aop xml开发/2022.5.16 spring Aop xml开发.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.5.18 spring Aop注解开发/2022.5.18 spring Aop注解开发.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.5.18 spring Aop注解开发/2022.5.18 spring Aop注解开发.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.5.18 spring spring+mybatis/2022.5.18 spring spring+mybatis.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.5.18 spring spring+mybatis/2022.5.18 spring spring+mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.5.22 SpringMVC/2022.5.22 SpringMVC.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.5.22 SpringMVC/2022.5.22 SpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.5.6 Mybatis/2022.5.6/2022.5.6.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.5.6 Mybatis/2022.5.6/2022.5.6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.5.8 mybatis/2022.5.8 mybatis.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.5.8 mybatis/2022.5.8 mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.5.9 mybatis动态sql/2022.5.9 mybatis动态sql.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.5.9 mybatis动态sql/2022.5.9 mybatis动态sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.5.9 sql注解开发/2022.5.9 sql注解开发.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.5.9 sql注解开发/2022.5.9 sql注解开发.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC/JDBC.iml" filepath="$PROJECT_DIR$/JDBC/JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaStudy.iml" filepath="$PROJECT_DIR$/.idea/JavaStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Study/Study.iml" filepath="$PROJECT_DIR$/Study/Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xiangxue/2022.5.6 Mybatis/Test/Test.iml" filepath="$PROJECT_DIR$/Xiangxue/2022.5.6 Mybatis/Test/Test.iml" />
+    </modules>
+  </component>
+</project>

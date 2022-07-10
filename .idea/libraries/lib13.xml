@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="lib13">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Xiangxue/2022.5.13 mybatis逆向工程/2022.5.13/lib/pagehelper-5.1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Xiangxue/2022.5.13 mybatis逆向工程/2022.5.13/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Xiangxue/2022.5.13 mybatis逆向工程/2022.5.13/lib/slf4j-log4j12-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Xiangxue/2022.5.13 mybatis逆向工程/2022.5.13/lib/jsqlparser-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Xiangxue/2022.5.13 mybatis逆向工程/2022.5.13/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Xiangxue/2022.5.13 mybatis逆向工程/2022.5.13/lib/mysql-connector-java-5.1.48.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Xiangxue/2022.5.13 mybatis逆向工程/2022.5.13/lib/slf4j-api-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Xiangxue/2022.5.13 mybatis逆向工程/2022.5.13/lib/javassist-3.27.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Xiangxue/2022.5.13 mybatis逆向工程/2022.5.13/lib/log4j-core-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Xiangxue/2022.5.13 mybatis逆向工程/2022.5.13/lib/asm-7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Xiangxue/2022.5.13 mybatis逆向工程/2022.5.13/lib/log4j-api-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Xiangxue/2022.5.13 mybatis逆向工程/2022.5.13/lib/mybatis-3.5.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
