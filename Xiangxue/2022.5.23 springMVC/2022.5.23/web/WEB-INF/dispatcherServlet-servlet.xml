@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--开启SpringMVC的注解开发-->
+    <mvc:annotation-driven/>
+    <!--扫描需要交给Spring容器管理的包-->
+    <context:component-scan base-package="com.mvc.controller"/>
+    <!--    &lt;!&ndash;配置在浏览器中访问MyController类&ndash;&gt;
+        <bean id="/abc" class="com.mvc.controller.MyController"/>-->
+    <!--放行静态资源-->
+    <mvc:resources mapping="/images/**" location="/images/"/>
+    <mvc:resources mapping="/html/**" location="/html/"/>
+</beans>
