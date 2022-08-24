@@ -1,6 +1,6 @@
-package com.xiangxue.mapper;
+package com.my.mapper;
 
-import com.xiangxue.pojo.User;
+import com.my.pojo.User;
 import org.springframework.stereotype.Repository;
 
 @Repository

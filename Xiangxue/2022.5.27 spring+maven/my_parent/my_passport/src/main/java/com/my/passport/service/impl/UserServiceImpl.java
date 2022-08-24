@@ -1,8 +1,9 @@
-package com.xiangxue.service.impl;
+package com.my.passport.service.impl;
 
-import com.xiangxue.mapper.UserMapper;
-import com.xiangxue.pojo.User;
-import com.xiangxue.service.UserService;
+
+import com.my.mapper.UserMapper;
+import com.my.passport.service.UserService;
+import com.my.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

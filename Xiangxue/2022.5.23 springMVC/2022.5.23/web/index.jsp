@@ -27,7 +27,7 @@
 </head>
 <body>
 <H3>用户提交数据</H3>
-<form action="login5" method="post">
+<form action="login2" method="post">
     用户名:<input type="text" name="uname"/><br/>
     密码:<input type="password" name="pwd"/><br/>
     性别:

@@ -27,7 +27,7 @@
 </head>
 <body>
 <H3>用户提交数据</H3>
-<form action="login2" method="post">
+<form action="login5" method="post">
     用户名:<input type="text" name="uname"/><br/>
     密码:<input type="password" name="pwd"/><br/>
     性别:
@@ -41,7 +41,11 @@
     生日:<input type="date" name="birthday"/>
     <input type="submit" value="提交"/>
 </form>
-<a href="login5/zhangsan/123">超链接restful风格携带数据请求</a>
+<%--
+    user前加/是相对于工程根目录开始
+    不加/是相对路径，推荐不加/
+--%>
+<a href="user/login5/张三/123">超链接restful风格携带数据请求</a>
 <button type="submit" id="but">ajax请求</button>
 </body>
 </html>

@@ -1,7 +1,7 @@
-package com.xiangxue.controller;
+package com.my.passport.controller;
 
-import com.xiangxue.pojo.User;
-import com.xiangxue.service.UserService;
+import com.my.passport.service.UserService;
+import com.my.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

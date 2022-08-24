@@ -17,7 +17,7 @@
     <title>$</title>
 </head>
 <body>
-
+欢迎${user.uname}登录
 </body>
 </html>
 

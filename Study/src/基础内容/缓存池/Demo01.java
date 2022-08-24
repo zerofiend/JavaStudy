@@ -1,5 +1,7 @@
 package 基础内容.缓存池;
 
+import java.util.Vector;
+
 public class Demo01 {
     public static void main(String[] args) {
 //        直接创建新地址

@@ -17,7 +17,8 @@
     <title>$</title>
 </head>
 <body>
-
+<h3>我的第一个springboot程序</h3>
+<img src="static/image/01.jpeg" alt="">
 </body>
 </html>
 

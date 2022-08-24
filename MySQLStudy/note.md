@@ -421,5 +421,4 @@ SELECT * FROM students LIMIT 6,3;
 
 ![1656485584431](image/note/1656485584431.png)
 
-
 ## 7-数据表的关联关系

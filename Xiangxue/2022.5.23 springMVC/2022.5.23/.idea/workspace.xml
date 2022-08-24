@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="2022.5.23:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6aad72fd-51b5-46aa-bfe0-eab3dee0c85d" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../JavaeeStudy/image/note/1657699277296.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring spring+mybatis/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.18 spring spring+mybatis/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.22 SpringMVC/2022.5.22/src/com/mvc/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.22 SpringMVC/2022.5.22/web/b.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.22 SpringMVC/2022.5.22/web/js/jquery-3.5.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/2022_5_23_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022.5.23.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mvc/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mvc/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mvc/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mvc/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcherServlet-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/html/c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/a.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/b.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/fileupload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.fileupload-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.io-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/freemarker-2.3.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-annotations-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-core-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-databind-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javassist-3.17.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-spring-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/01.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.5.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 Maven/2022.5.25/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 Maven/2022.5.25/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 Maven/2022.5.25/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 Maven/2022.5.25/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 Maven/2022.5.25/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 Maven/2022.5.25/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 Maven/2022.5.25/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/springboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/src/main/java/com/xiangxue/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/src/main/java/com/xiangxue/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/src/main/java/com/xiangxue/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/src/main/resources/static/image/01.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/src/main/resources/static/page/bbb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/src/main/webapp/WEB-INF/jsp/aaa.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/src/main/webapp/images/01.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.25 springboot/springboot/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_mapper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_mapper/src/main/java/com/my/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_mapper/src/main/resources/application-mapper.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_mapper/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_passport/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_passport/src/main/java/com/my/PassportApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_passport/src/main/java/com/my/passport/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_passport/src/main/java/com/my/passport/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_passport/src/main/java/com/my/passport/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_passport/src/main/java/com/my/passport/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_passport/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_passport/src/main/webapp/WEB-INF/jsp/fail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_passport/src/main/webapp/WEB-INF/jsp/loginuser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_passport/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 spring+maven/my_parent/my_pojo/src/main/java/com/my/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 ssm+springboot/ssm/src/main/java/com/xiangxue/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 ssm+springboot/ssm/src/main/java/com/xiangxue/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 ssm+springboot/ssm/src/main/java/com/xiangxue/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 ssm+springboot/ssm/src/main/java/com/xiangxue/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 ssm+springboot/ssm/src/main/java/com/xiangxue/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 ssm+springboot/ssm/src/main/java/com/xiangxue/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 ssm+springboot/ssm/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 ssm+springboot/ssm/src/main/webapp/WEB-INF/jsp/fail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 ssm+springboot/ssm/src/main/webapp/WEB-INF/jsp/loginuser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 ssm+springboot/ssm/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022.5.27 ssm+springboot/ssm/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JDBC/JDBC01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JDBC/JDBC01/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MySQLStudy/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MySQLStudy/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MySQLStudy/note.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MySQLStudy/note.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Study/src/基础内容/缓存池/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Study/src/基础内容/缓存池/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.18 spring spring+mybatis/2022.5.18 spring spring+mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022.5.18 spring spring+mybatis/2022.5.18 spring spring+mybatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.22 SpringMVC/2022.5.22/src/com/mvc/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022.5.22 SpringMVC/2022.5.22/src/com/mvc/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022.5.22 SpringMVC/2022.5.22/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022.5.22 SpringMVC/2022.5.22/web/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BmtAtDQnoKoTNnT7arzT5edCpV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/ZFiend/XiangxueCourses/8班/2022.6.13-企业管理系统/oa_system_parent",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "settings.saveactions",
+    "spring.configuration.checksum": "d41d8cd98f00b204e9800998ecf8427e",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ZFiend\JavaStudy\Xiangxue\2022.5.23 springMVC\2022.5.23\web\WEB-INF" />
+      <recent name="D:\ZFiend\JavaStudy\Xiangxue\2022.5.23 springMVC\2022.5.23" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ZFiend\JavaStudy\Xiangxue\2022.5.23 springMVC\2022.5.23\web\WEB-INF\jsp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.62" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.62" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="2022.5.23:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/2022_5_23_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="beb71444-c16c-4121-809b-af7fe88ddc25" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="2022.5.23:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6aad72fd-51b5-46aa-bfe0-eab3dee0c85d" name="变更" comment="" />
+      <created>1657522948542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657522948542</updated>
+      <workItem from="1657522950258" duration="6167000" />
+      <workItem from="1658424259836" duration="23000" />
+      <workItem from="1658501638449" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

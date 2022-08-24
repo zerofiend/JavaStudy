@@ -1,6 +1,7 @@
-package com.xiangxue.service;
+package com.my.passport.service;
 
-import com.xiangxue.pojo.User;
+
+import com.my.pojo.User;
 
 public interface UserService {
     public User login(String uname, String pwd);

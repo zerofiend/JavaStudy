@@ -17,8 +17,7 @@
     <title>$</title>
 </head>
 <body>
-${name}<br>
-${age}
+<h3>我是b.jsp</h3>
 </body>
 </html>
 

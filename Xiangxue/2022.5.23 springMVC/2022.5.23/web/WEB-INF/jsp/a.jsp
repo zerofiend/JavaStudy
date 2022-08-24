@@ -20,7 +20,7 @@
 <h3>我的第一个SpringMVC程序</h3>
 ${uname} <br>
 <%--suppress CheckImageSize --%>
-<img src="images/01.jpeg" width="780" alt="">
+<img src="../../images/01.jpeg" width="780" alt="">
 </body>
 </html>
 

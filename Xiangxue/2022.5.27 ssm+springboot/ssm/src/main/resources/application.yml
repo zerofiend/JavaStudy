@@ -1,0 +1,18 @@
+server:
+  port: 8887
+spring:
+  thymeleaf:
+    cache: true
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  datasource:
+    type: org.springframework.jdbc.datasource.DriverManagerDataSource
+    url: jdbc:mysql://localhost:3306/xiangxuestudy?serveTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: '030212'
+#扫描映射文件所在的目录
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+

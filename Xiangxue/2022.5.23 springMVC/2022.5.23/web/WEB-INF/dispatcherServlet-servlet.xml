@@ -13,4 +13,34 @@
     <!--放行静态资源-->
     <mvc:resources mapping="/images/**" location="/images/"/>
     <mvc:resources mapping="/html/**" location="/html/"/>
+
+    <!--springMVC的方式配置视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--配置前缀-->
+        <property name="prefix" value="/WEB-INF/jsp/"/> <!--配置前缀-->
+        <property name="suffix" value=".jsp"/>  <!--配置后缀-->
+        <!--设置优先级,数字越小，有限级越高-->
+        <property name="order" value="1"/>
+    </bean>
+
+    <!--配置html的视图解析器-->
+    <bean class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+        <!--配置前缀-->
+        <property name="templateLoaderPath" value="/WEB-INF/html/"/>
+        <property name="defaultEncoding" value="utf-8"/>
+    </bean>
+    <bean class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+        <!--配置后缀-->
+        <property name="suffix" value=".html"/>
+        <property name="contentType" value="text/html;charset=utf-8"/>
+        <!--设置优先级,数字越小，有限级越高-->
+        <property name="order" value="0"/>
+    </bean>
+
+
+    <!--注册SpringMVC依赖的文件上传解析器-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!--上传文件有可能是中文名，防止乱码-->
+        <property name="defaultEncoding" value="utf-8"/>
+    </bean>
 </beans>

@@ -17,7 +17,8 @@
     <title>$</title>
 </head>
 <body>
-
+${name}<br>
+${age}
 </body>
 </html>
 
